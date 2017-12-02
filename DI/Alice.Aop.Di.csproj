@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Default implementation of dependency injection for Microsoft.Extensions.DependencyInjection.</Description>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Alice.Aop.Di</AssemblyName>
+    <RootNamespace>Alice.Aop.Di</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\shared\Microsoft.Extensions.ParameterDefaultValue.Sources\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.TypeNameHelper.Sources" PrivateAssets="All" Version="$(MicrosoftExtensionsTypeNameHelperSourcesPackageVersion)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DI.Abstractions\Alice.Aop.Di.Abstract.csproj" />
+  </ItemGroup>
+
+</Project>

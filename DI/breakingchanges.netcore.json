@@ -1,0 +1,7 @@
+[
+  {
+    "TypeId": "public static class Alice.Aop.Di.ServiceCollectionContainerBuilderExtensions",
+    "MemberId": "public static System.IServiceProvider BuildServiceProvider(this Alice.Aop.Di.IServiceCollection services)",
+    "Kind": "Removal"
+  }
+]

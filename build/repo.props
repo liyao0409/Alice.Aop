@@ -1,0 +1,14 @@
+﻿<Project>
+  <PropertyGroup>
+    <EnableBenchmarkValidation>true</EnableBenchmarkValidation>
+  </PropertyGroup>
+  <ItemGroup>
+    <ExcludeFromTest Include="$(RepositoryRoot)test\DI.Performance\DI.Performance.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <!-- These properties are use by the automation that updates dependencies.props -->
+    <LineupPackageId>Internal.AspNetCore.Universe.Lineup</LineupPackageId>
+    <LineupPackageRestoreSource>https://dotnet.myget.org/F/aspnetcore-ci-dev/api/v3/index.json</LineupPackageRestoreSource>
+  </PropertyGroup>
+</Project>
