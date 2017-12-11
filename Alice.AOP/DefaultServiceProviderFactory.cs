@@ -1,7 +1,9 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using System;
+﻿using System;
+using Alice.Aop.ServiceContainer;
+using Microsoft.Extensions.DependencyInjection;
+using ServiceProviderOptions = Alice.Aop.ServiceProviderOptions;
 
-namespace Alice.Aop.Di
+namespace Alice.Aop
 {
     /// <summary>
     /// Default implementation of <see cref="IServiceProviderFactory{TContainerBuilder}"/>.

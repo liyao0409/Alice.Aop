@@ -1,12 +1,12 @@
 {
-  "AssemblyIdentity": "Alice.Aop.Di, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+  "AssemblyIdentity": "Alice.Aop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60",
   "Types": [
     {
-      "Name": "Alice.Aop.Di.ServiceCollection",
+      "Name": "Alice.Aop.ServiceCollection",
       "Visibility": "Public",
       "Kind": "Class",
       "ImplementedInterfaces": [
-        "Alice.Aop.Di.IServiceCollection"
+        "Alice.Aop.IServiceCollection"
       ],
       "Members": [
         {
@@ -16,7 +16,7 @@
           "ReturnType": "System.Int32",
           "Sealed": true,
           "Virtual": true,
-          "ImplementedInterface": "System.Collections.Generic.ICollection<Alice.Aop.Di.ServiceDescriptor>",
+          "ImplementedInterface": "System.Collections.Generic.ICollection<Alice.Aop.ServiceDescriptor>",
           "Visibility": "Public",
           "GenericParameter": []
         },
@@ -27,7 +27,7 @@
           "ReturnType": "System.Boolean",
           "Sealed": true,
           "Virtual": true,
-          "ImplementedInterface": "System.Collections.Generic.ICollection<Alice.Aop.Di.ServiceDescriptor>",
+          "ImplementedInterface": "System.Collections.Generic.ICollection<Alice.Aop.ServiceDescriptor>",
           "Visibility": "Public",
           "GenericParameter": []
         },
@@ -40,10 +40,10 @@
               "Type": "System.Int32"
             }
           ],
-          "ReturnType": "Alice.Aop.Di.ServiceDescriptor",
+          "ReturnType": "Alice.Aop.ServiceDescriptor",
           "Sealed": true,
           "Virtual": true,
-          "ImplementedInterface": "System.Collections.Generic.IList<Alice.Aop.Di.ServiceDescriptor>",
+          "ImplementedInterface": "System.Collections.Generic.IList<Alice.Aop.ServiceDescriptor>",
           "Visibility": "Public",
           "GenericParameter": []
         },
@@ -57,13 +57,13 @@
             },
             {
               "Name": "value",
-              "Type": "Alice.Aop.Di.ServiceDescriptor"
+              "Type": "Alice.Aop.ServiceDescriptor"
             }
           ],
           "ReturnType": "System.Void",
           "Sealed": true,
           "Virtual": true,
-          "ImplementedInterface": "System.Collections.Generic.IList<Alice.Aop.Di.ServiceDescriptor>",
+          "ImplementedInterface": "System.Collections.Generic.IList<Alice.Aop.ServiceDescriptor>",
           "Visibility": "Public",
           "GenericParameter": []
         },
@@ -74,7 +74,7 @@
           "ReturnType": "System.Void",
           "Sealed": true,
           "Virtual": true,
-          "ImplementedInterface": "System.Collections.Generic.ICollection<Alice.Aop.Di.ServiceDescriptor>",
+          "ImplementedInterface": "System.Collections.Generic.ICollection<Alice.Aop.ServiceDescriptor>",
           "Visibility": "Public",
           "GenericParameter": []
         },
@@ -84,13 +84,13 @@
           "Parameters": [
             {
               "Name": "item",
-              "Type": "Alice.Aop.Di.ServiceDescriptor"
+              "Type": "Alice.Aop.ServiceDescriptor"
             }
           ],
           "ReturnType": "System.Boolean",
           "Sealed": true,
           "Virtual": true,
-          "ImplementedInterface": "System.Collections.Generic.ICollection<Alice.Aop.Di.ServiceDescriptor>",
+          "ImplementedInterface": "System.Collections.Generic.ICollection<Alice.Aop.ServiceDescriptor>",
           "Visibility": "Public",
           "GenericParameter": []
         },
@@ -100,7 +100,7 @@
           "Parameters": [
             {
               "Name": "array",
-              "Type": "Alice.Aop.Di.ServiceDescriptor[]"
+              "Type": "Alice.Aop.ServiceDescriptor[]"
             },
             {
               "Name": "arrayIndex",
@@ -110,7 +110,7 @@
           "ReturnType": "System.Void",
           "Sealed": true,
           "Virtual": true,
-          "ImplementedInterface": "System.Collections.Generic.ICollection<Alice.Aop.Di.ServiceDescriptor>",
+          "ImplementedInterface": "System.Collections.Generic.ICollection<Alice.Aop.ServiceDescriptor>",
           "Visibility": "Public",
           "GenericParameter": []
         },
@@ -120,13 +120,13 @@
           "Parameters": [
             {
               "Name": "item",
-              "Type": "Alice.Aop.Di.ServiceDescriptor"
+              "Type": "Alice.Aop.ServiceDescriptor"
             }
           ],
           "ReturnType": "System.Boolean",
           "Sealed": true,
           "Virtual": true,
-          "ImplementedInterface": "System.Collections.Generic.ICollection<Alice.Aop.Di.ServiceDescriptor>",
+          "ImplementedInterface": "System.Collections.Generic.ICollection<Alice.Aop.ServiceDescriptor>",
           "Visibility": "Public",
           "GenericParameter": []
         },
@@ -134,10 +134,10 @@
           "Kind": "Method",
           "Name": "GetEnumerator",
           "Parameters": [],
-          "ReturnType": "System.Collections.Generic.IEnumerator<Alice.Aop.Di.ServiceDescriptor>",
+          "ReturnType": "System.Collections.Generic.IEnumerator<Alice.Aop.ServiceDescriptor>",
           "Sealed": true,
           "Virtual": true,
-          "ImplementedInterface": "System.Collections.Generic.IEnumerable<Alice.Aop.Di.ServiceDescriptor>",
+          "ImplementedInterface": "System.Collections.Generic.IEnumerable<Alice.Aop.ServiceDescriptor>",
           "Visibility": "Public",
           "GenericParameter": []
         },
@@ -147,13 +147,13 @@
           "Parameters": [
             {
               "Name": "item",
-              "Type": "Alice.Aop.Di.ServiceDescriptor"
+              "Type": "Alice.Aop.ServiceDescriptor"
             }
           ],
           "ReturnType": "System.Int32",
           "Sealed": true,
           "Virtual": true,
-          "ImplementedInterface": "System.Collections.Generic.IList<Alice.Aop.Di.ServiceDescriptor>",
+          "ImplementedInterface": "System.Collections.Generic.IList<Alice.Aop.ServiceDescriptor>",
           "Visibility": "Public",
           "GenericParameter": []
         },
@@ -167,13 +167,13 @@
             },
             {
               "Name": "item",
-              "Type": "Alice.Aop.Di.ServiceDescriptor"
+              "Type": "Alice.Aop.ServiceDescriptor"
             }
           ],
           "ReturnType": "System.Void",
           "Sealed": true,
           "Virtual": true,
-          "ImplementedInterface": "System.Collections.Generic.IList<Alice.Aop.Di.ServiceDescriptor>",
+          "ImplementedInterface": "System.Collections.Generic.IList<Alice.Aop.ServiceDescriptor>",
           "Visibility": "Public",
           "GenericParameter": []
         },
@@ -189,7 +189,7 @@
           "ReturnType": "System.Void",
           "Sealed": true,
           "Virtual": true,
-          "ImplementedInterface": "System.Collections.Generic.IList<Alice.Aop.Di.ServiceDescriptor>",
+          "ImplementedInterface": "System.Collections.Generic.IList<Alice.Aop.ServiceDescriptor>",
           "Visibility": "Public",
           "GenericParameter": []
         },
@@ -204,7 +204,7 @@
       "GenericParameters": []
     },
     {
-      "Name": "Alice.Aop.Di.ServiceCollectionContainerBuilderExtensions",
+      "Name": "Alice.Aop.ServiceCollectionContainerBuilderExtensions",
       "Visibility": "Public",
       "Kind": "Class",
       "Abstract": true,
@@ -218,7 +218,7 @@
           "Parameters": [
             {
               "Name": "services",
-              "Type": "Alice.Aop.Di.IServiceCollection"
+              "Type": "Alice.Aop.IServiceCollection"
             }
           ],
           "ReturnType": "System.IServiceProvider",

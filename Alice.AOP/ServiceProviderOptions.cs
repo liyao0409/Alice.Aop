@@ -3,7 +3,7 @@
 
 using System;
 
-namespace Alice.Aop.Di
+namespace Alice.Aop
 {
     /// <summary>
     /// Options for configuring various behaviors of the default <see cref="IServiceProvider"/> implementation.
